@@ -1,0 +1,20 @@
+{
+  "name": "web-scraping",
+  "version": "1.0.0",
+  "description": "Web scraping",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nirajan Kunwor",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "nodemon": "^2.0.15",
+    "pretty": "^2.0.0",
+    "request": "^2.88.2"
+  }
+}
